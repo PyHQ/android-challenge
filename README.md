@@ -25,6 +25,8 @@ The goal of this challenge is to create single-view game.
 ### Animations
 - Bonus points for a nice transition animation between code snippets
 
+### Content
+- It would be great if you can come up with a few (let's say 5) code snippets as content. You're free to specify them however you like (i.e. as a JSON file, hardcoded objects in Java, etc)
 
 ## Screenshot
 ![game](https://github.com/PyHQ/android-challenge/blob/master/game.png)
