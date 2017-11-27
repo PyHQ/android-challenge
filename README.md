@@ -1,6 +1,6 @@
 # Android Challenge
 
-The goal of this challenge is to create single-view game.
+The goal of this challenge is to create a game that tests a software engineer's skill in spotting programming errors.
 
 ## Game Instructions:
 - The game presents multi-line code snippets to the user. The code sometimes contains an error.
