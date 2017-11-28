@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="py.keeporswap.SwapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="@dimen/code_box_padding">
+
+        <TextView
+            android:id="@+id/code_snippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/code_box"
+            android:fontFamily="@font/menlo_regular"
+            android:lineSpacingExtra="8dp"
+            android:text="data = [1,2]\nfor i in i:\n  print data"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/code_box_text_size"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/button_padding"
+        android:paddingRight="@dimen/button_padding">
+
+        <Button
+            android:id="@+id/swap_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_box"
+            android:drawableTop="@drawable/ic_swap"
+            android:fontFamily="@font/avenirnext_demibold"
+            android:text="Swap"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/keep_button"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_box"
+            android:fontFamily="@font/avenirnext_demibold"
+            android:text="Keep"
+            android:textAllCaps="false"
+            android:drawableTop="@drawable/ic_check"
+            android:textSize="@dimen/button_text_size"
+            android:padding="13dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="Next"
+        android:visibility="invisible" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="code_box_padding">25dp</dimen>
+    <dimen name="code_box_text_size">20sp</dimen>
+    <dimen name="button_padding">24dp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="button_height">96dp</dimen>
+</resources>
